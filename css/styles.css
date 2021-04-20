@@ -1,0 +1,106 @@
+/* CSS HEX 
+--ming: #006d77ff;
+--hookers-green: #52796fff;
+--wintergreen-dream: #699489ff;
+--turquoise-green: #a5d0a8ff;
+--tea-green: #d7e8baff;
+
+/* CSS HSL 
+--ming: hsla(185, 100%, 23%, 1);
+--hookers-green: hsla(165, 19%, 40%, 1);
+--wintergreen-dream: hsla(165, 17%, 50%, 1);
+--turquoise-green: hsla(124, 31%, 73%, 1);
+--tea-green: hsla(82, 50%, 82%, 1);
+
+/* SCSS HEX 
+$ming: #006d77ff;
+$hookers-green: #52796fff;
+$wintergreen-dream: #699489ff;
+$turquoise-green: #a5d0a8ff;
+$tea-green: #d7e8baff;
+
+/* SCSS HSL 
+$ming: hsla(185, 100%, 23%, 1);
+$hookers-green: hsla(165, 19%, 40%, 1);
+$wintergreen-dream: hsla(165, 17%, 50%, 1);
+$turquoise-green: hsla(124, 31%, 73%, 1);
+$tea-green: hsla(82, 50%, 82%, 1);
+
+/* SCSS RGB 
+$ming: rgba(0, 109, 119, 1);
+$hookers-green: rgba(82, 121, 111, 1);
+$wintergreen-dream: rgba(105, 148, 137, 1);
+$turquoise-green: rgba(165, 208, 168, 1);
+$tea-green: rgba(215, 232, 186, 1);
+
+/* SCSS Gradient 
+$gradient-top: linear-gradient(0deg, #006d77ff, #52796fff, #699489ff, #a5d0a8ff, #d7e8baff);
+$gradient-right: linear-gradient(90deg, #006d77ff, #52796fff, #699489ff, #a5d0a8ff, #d7e8baff);
+$gradient-bottom: linear-gradient(180deg, #006d77ff, #52796fff, #699489ff, #a5d0a8ff, #d7e8baff);
+$gradient-left: linear-gradient(270deg, #006d77ff, #52796fff, #699489ff, #a5d0a8ff, #d7e8baff);
+$gradient-top-right: linear-gradient(45deg, #006d77ff, #52796fff, #699489ff, #a5d0a8ff, #d7e8baff);
+$gradient-bottom-right: linear-gradient(135deg, #006d77ff, #52796fff, #699489ff, #a5d0a8ff, #d7e8baff);
+$gradient-top-left: linear-gradient(225deg, #006d77ff, #52796fff, #699489ff, #a5d0a8ff, #d7e8baff);
+$gradient-bottom-left: linear-gradient(315deg, #006d77ff, #52796fff, #699489ff, #a5d0a8ff, #d7e8baff);
+$gradient-radial: radial-gradient(#006d77ff, #52796fff, #699489ff, #a5d0a8ff, #d7e8baff);
+ --------------------------------------------*/
+body {
+	font-size:16px;
+	
+
+	
+
+	color: #343434;
+}
+ img {
+	width: 300px;
+}
+
+a {
+	color:gray;
+
+}
+ 
+ a:hover{
+	text-decoration:none;
+ }
+/* Profile
+ --------------------------------------------*/
+header {
+
+	height: 700px;
+    background: url('../img/new-hero-image.png');
+    background-size: cover;
+	
+	
+}
+
+header h1{
+    font-family: 'Impact', sans-serif;
+	font-size: 30px;
+	color: white;
+	padding: 425px  75px 425px;
+	}
+
+
+/* Projects
+ --------------------------------------------*/
+
+.projects{
+	background: linear-gradient(180deg, #006d77ff, #52796fff, #699489ff, #a5d0a8ff, #d7e8baff);
+
+}
+
+
+/* Education
+ --------------------------------------------*/
+.education{
+	background:#006d77ff;
+}
+
+/* Contact Info
+ --------------------------------------------*/
+
+footer {
+	background:#CAD2C5;
+}
