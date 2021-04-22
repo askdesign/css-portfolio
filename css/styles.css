@@ -46,9 +46,7 @@ $gradient-radial: radial-gradient(#006d77ff, #52796fff, #699489ff, #a5d0a8ff, #d
  --------------------------------------------*/
 
 
- html {
-	 box-sizing: border-box;
- }
+
 
  *, *:before, *:after{
 	 box-sizing:inherit;
