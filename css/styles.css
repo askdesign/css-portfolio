@@ -44,25 +44,54 @@ $gradient-top-left: linear-gradient(225deg, #006d77ff, #52796fff, #699489ff, #a5
 $gradient-bottom-left: linear-gradient(315deg, #006d77ff, #52796fff, #699489ff, #a5d0a8ff, #d7e8baff);
 $gradient-radial: radial-gradient(#006d77ff, #52796fff, #699489ff, #a5d0a8ff, #d7e8baff);
  --------------------------------------------*/
+
+
+ html {
+	 box-sizing: border-box;
+ }
+
+ *, *:before, *:after{
+	 box-sizing:inherit;
+ }
 body {
+	margin:0px;
+	padding:0px;
+	color: #FFFFFF;
 	font-size:16px;
-	
+	font-family: 'Josefin Sans', sans-serif;
 
 	
 
-	color: #343434;
+	
 }
  img {
 	width: 300px;
 }
 
 a {
-	color:gray;
-
+	color:#a5d0a8ff;
+	text-decoration:none;
 }
  
  a:hover{
 	text-decoration:none;
+ }
+ 
+ .content-wrapper header{
+	 padding:60px 0;
+ }
+
+ .content-wrapper{
+	 max-width: 800px;
+	 widht:85%;
+	 margin:0 auto;
+	 padding: 60px 0;
+ }
+ .divider > section {
+	 border-bottom:1px dashed
+ }
+ .divider > section:last-of-type{
+	border-bottom:none;
  }
 /* Profile
  --------------------------------------------*/
@@ -70,17 +99,42 @@ header {
 
 	height: 700px;
     background: url('../img/new-hero-image.png');
-    background-size: cover;
+	background-size: cover;
+	background-position: top left;
+	padding-bottom: 100px;
+
 	
 	
 }
 
 header h1{
-    font-family: 'Impact', sans-serif;
-	font-size: 30px;
+    font-family: 'Antonio', sans-serif;
+	font-size: 35px;
 	color: white;
-	padding: 425px  75px 425px;
+	padding: 325px  75px 5px; 
+	
 	}
+
+header p{
+	padding: 26px 76px;
+	color: white;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	width:60%;
+}
+
+
+header p span{
+	color:darkslategray;
+}
+
+h2{font-family:'Antonio', sans-serif;
+	
+}
+ h3{
+	font-family:'Roboto Slab', serif;
+}
+
 
 
 /* Projects
@@ -91,6 +145,41 @@ header h1{
 
 }
 
+
+.projects a{
+
+}
+
+
+.projects .btn{
+	color: aliceblue;
+	background: #006d77ff;
+	text-decoration:none;
+	padding:8px;
+	border-radius:4px;
+	display:inline-block;
+
+
+}
+
+.projects .btn:hover{
+	background: rgba(0, 109, 119, 70%);
+}
+
+.project-item {
+	overflow: hidden;
+	border-bottom: 1px dashed darkslategray;
+	padding:25px 0;
+}
+.project-item img{
+	float:left;
+	margin-right:20px;
+}
+
+.project-item h3{
+	margin-top:0;
+
+}
 
 /* Education
  --------------------------------------------*/
@@ -103,4 +192,41 @@ header h1{
 
 footer {
 	background:#CAD2C5;
+	color:#52796fff;
+	text-align:center;
+
+	
+}
+
+.contact {
+	list-style-type: none;
+	padding:0;
+	display:flex;
+	justify-content:center;
+	
+}
+
+.contact a {
+	padding: 15px;
+	display:inline-block;
+
+}
+
+/*Responsive
+----------------------------------------------------*/
+
+@media screen and (min-width:750px){
+	header, footer {
+		text-align:center;
+	}
+	.project-item img{
+		float:left;
+		margin-right:20px;
+	}
+
+	
+}
+
+@media screen and (max-width:749px){
+	
 }
