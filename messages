@@ -1,0 +1,15 @@
+.header-content-wrapper {
+		padding: 20px 0;
+	}
+
+	header h1 {
+		padding: 225px 125px 5px;
+		width: 85%;
+		text-align: left;
+	}
+
+	header p {
+		padding: 26px 125px;
+		width: 85%;
+		text-align: left;
+	}
