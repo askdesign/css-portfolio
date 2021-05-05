@@ -1,38 +1,64 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@askdesign 
+askdesign
+/
+css-portfolio
+forked from MorganEJLA/css-portfolio
+0
+01
+Code
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+css-portfolio/css/styles.css
+@MorganEJLA
+MorganEJLA removed border box
+Latest commit 54519ac 12 days ago
+ History
+ 1 contributor
+230 lines (171 sloc)  4.09 KB
+  
 /* CSS HEX 
 --ming: #006d77ff;
 --hookers-green: #52796fff;
 --wintergreen-dream: #699489ff;
 --turquoise-green: #a5d0a8ff;
 --tea-green: #d7e8baff;
-
 /* CSS HSL 
 --ming: hsla(185, 100%, 23%, 1);
 --hookers-green: hsla(165, 19%, 40%, 1);
 --wintergreen-dream: hsla(165, 17%, 50%, 1);
 --turquoise-green: hsla(124, 31%, 73%, 1);
 --tea-green: hsla(82, 50%, 82%, 1);
-
 /* SCSS HEX 
 $ming: #006d77ff;
 $hookers-green: #52796fff;
 $wintergreen-dream: #699489ff;
 $turquoise-green: #a5d0a8ff;
 $tea-green: #d7e8baff;
-
 /* SCSS HSL 
 $ming: hsla(185, 100%, 23%, 1);
 $hookers-green: hsla(165, 19%, 40%, 1);
 $wintergreen-dream: hsla(165, 17%, 50%, 1);
 $turquoise-green: hsla(124, 31%, 73%, 1);
 $tea-green: hsla(82, 50%, 82%, 1);
-
 /* SCSS RGB 
 $ming: rgba(0, 109, 119, 1);
 $hookers-green: rgba(82, 121, 111, 1);
 $wintergreen-dream: rgba(105, 148, 137, 1);
 $turquoise-green: rgba(165, 208, 168, 1);
 $tea-green: rgba(215, 232, 186, 1);
-
 /* SCSS Gradient 
 $gradient-top: linear-gradient(0deg, #006d77ff, #52796fff, #699489ff, #a5d0a8ff, #d7e8baff);
 $gradient-right: linear-gradient(90deg, #006d77ff, #52796fff, #699489ff, #a5d0a8ff, #d7e8baff);
@@ -80,11 +106,17 @@ a {
  }
 
  .content-wrapper{
-	 max-width: 800px;
-	 widht:85%;
-	 margin:0 auto;
-	 padding: 60px 0;
- }
+	max-width: 800px;
+	width:85%;
+	margin:0 auto;
+	padding: 60px 0;
+}
+ .header-content-wrapper{
+	max-width: 800px;
+	width:85%;
+	margin:0 auto;
+	padding: 60px 0;
+}
  .divider > section {
 	 border-bottom:1px dashed
  }
@@ -213,6 +245,32 @@ footer {
 /*Responsive
 ----------------------------------------------------*/
 
+@media screen and (max-width:1420px){
+	.header-content-wrapper{
+		padding: 60px 0;
+	}
+}
+
+@media screen and (max-width:1200px){
+
+	.header-content-wrapper {
+		padding: 20px 0;
+	}
+
+	header h1 {
+		padding: 225px 125px 5px;
+		width: 85%;
+		text-align: left;
+	}
+
+	header p {
+		padding: 26px 125px;
+		width: 85%;
+		text-align: left;
+	}
+}
+
+
 @media screen and (min-width:750px){
 	header, footer {
 		text-align:center;
@@ -228,3 +286,16 @@ footer {
 @media screen and (max-width:749px){
 	
 }
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
